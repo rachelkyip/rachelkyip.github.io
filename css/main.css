@@ -19,6 +19,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
 }
 h1 {
     font-size: 2em;
