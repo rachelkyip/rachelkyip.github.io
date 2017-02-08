@@ -9,8 +9,7 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     color : #808080
-    border-style: dotted;
-    border-width: 2px;
+    border: 1px solid red
 }
 nav ul li, footer ul li {
     display: inline;
