@@ -43,6 +43,20 @@
 			</div>
 
 			<button id="b1" onclick="randomize()">Click Me!</button>
+			
+			<button onclick="myFunction()">Try it</button>
+
+			<p id="website"></p>
+
+			<script>
+			function myFunction() {
+   				var person = prompt("Please enter your name", "What's your name");
+    				if (person != null) {
+        				document.getElementById("website").innerHTML =
+        				"Hello " + person + "! How are you today?";
+    				}
+			}
+			</script>
 
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
