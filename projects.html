@@ -27,23 +27,7 @@
     			  document.getElementById("demo").innerHTML = "Hello World";
 			}
 			</script>
-			
-			
 			<br>
-			
-			<button onClick="getRandomColor()">Random color!</button>
-			<p id="randomColor"></p>
-			<script>
-			function getRandomColor() {
-   			 var letters = '0123456789ABCDEF';
-   			 var color = '#';
-   			 for (var i = 0; i < 6; i++ ) {
-       			 color += letters[Math.floor(Math.random() * 16)];
-    			 }
-    			document.getElementById("randomColor").innerHTML = color;
-			}
-			</script>
-			
 			<script>
 			function randomize() {
   				document.getElementById('p1').style.color = randomColors();
