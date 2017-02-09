@@ -43,6 +43,22 @@
     			document.getElementById("randomColor").innerHTML = color;
 			}
 			</script>
+			
+			<script>
+			function randomize() {
+  				document.getElementById('p1').style.color = randomColors();
+			}
+
+			function randomColors() {
+  				return '#' + Math.floor(Math.random() * 16777215).toString(16);
+			}
+			</script>
+			
+			<div>
+ 			  <p id="p1">Hello World</p>
+			</div>
+
+			<button id="b1" onclick="randomize()">Click Me!</button>
 
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
