@@ -3,7 +3,7 @@
     <title>Projects</title></title>
     <!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
- </head>
+ </head>;
  <body>
      <nav>
     		<ul>
@@ -22,7 +22,7 @@
 			<br>
 			
 			<button onClick="getRandomColor()">Random color!</button>
-			<p id="demo"></p>
+			<p id="randomColor"></p>
 			<script>
 			function getRandomColor() {
    			 var letters = '0123456789ABCDEF';
@@ -30,7 +30,7 @@
    			 for (var i = 0; i < 6; i++ ) {
        			 color += letters[Math.floor(Math.random() * 16)];
     			 }
-    			return color;
+    			document.getElementById("randomColor").innerHTML = color;
 			}
 			</script>
 
