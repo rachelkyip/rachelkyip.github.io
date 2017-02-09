@@ -9,11 +9,12 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     color : #808080
-    border: 1px solid red
+    border: 1px solid black;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    border: 1px solid black;
 }
 a {
     text-decoration: none;
