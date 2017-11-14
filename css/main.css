@@ -56,3 +56,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.dotted { 
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: black;
+}
