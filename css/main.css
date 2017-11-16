@@ -109,9 +109,10 @@ ul#list-nav {
 }
 
 ul#list-nav li {
-  display:inline
+  text-align: center
 }
 
 ul#list-nav li a {
  color:#000000;
+ text-align: center
 }
