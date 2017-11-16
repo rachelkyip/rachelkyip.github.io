@@ -104,15 +104,16 @@ h1 {
 .table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
+	color: #000000
 }
 
 ul#horizontal-list {
 	min-width: 696px;
 	list-style: none;
 	padding-top: 20px;
-  color: #000000
+        color: #000000
 	}
 	ul#horizontal-list li {
 		display: inline;
-    color: #000000
+                color: #000000
 	}
