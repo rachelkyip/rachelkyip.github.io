@@ -101,18 +101,18 @@ h1 {
   box-shadow:         3px 3px 5px 6px #ccc;
 }
 
-ul#list-nav {
-  margin:20px;
-  padding:0;
-  list-style:none;
-  width:525px;
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
 
-ul#list-nav li {
-  text-align: center
-}
-
-ul#list-nav li a {
- color:#000000;
- text-align: center
-}
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+  color: #000000
+	}
+	ul#horizontal-list li {
+		display: inline;
+    color: #000000
+	}
