@@ -5,12 +5,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-    margin: 60px auto;
-    width: 70%;
-    background-color: white;
-}
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background: #456990;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}  
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
