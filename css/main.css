@@ -96,7 +96,7 @@ h1 {
 }
 
 .shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #000000;
+  -webkit-box-shadow: 3px 3px 5px 6px #000000;
+  box-shadow:         3px 3px 5px 6px #000000;
 }
