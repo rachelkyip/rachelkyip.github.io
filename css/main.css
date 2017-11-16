@@ -11,25 +11,21 @@ body {
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
-}  
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    color : #808080;
+ 
+.intro {
+  background: #F45B69;
+  padding: 100px 0;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-    font-family: "Times New Roman", Times, serif;
+
+h1 {
+  font-size: 2.5rem;
 }
 h1 {
     font-size: 40px;
