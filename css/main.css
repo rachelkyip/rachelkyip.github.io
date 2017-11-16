@@ -95,8 +95,8 @@ h1 {
   border-color: transparent transparent transparent #F45B69;
 }
 
-.effect1{
-    -webkit-box-shadow: 0 10px 6px -6px #000000;
-       -moz-box-shadow: 0 10px 6px -6px #000000;
-            box-shadow: 0 10px 6px -6px #000000;
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
