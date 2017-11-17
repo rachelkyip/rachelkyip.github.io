@@ -131,3 +131,7 @@ ul#horizontal-list li:nth-child(4) { /* third item */
    	 position:relative;
     	 left:10px;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
