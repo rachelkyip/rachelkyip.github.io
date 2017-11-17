@@ -38,6 +38,7 @@ h1 {
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline ul li {
+  font-family: 'Raleway', sans-serif;
   list-style-type: none;
   position: relative;
   width: 6px;
