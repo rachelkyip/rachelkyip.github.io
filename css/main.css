@@ -121,14 +121,14 @@ ul#horizontal-list {
 
 ul#horizontal-list li:nth-child(1) { /* first item */
     	position:relative;
-    	left:30px;
+    	left:20px;
 }
 	
 ul#horizontal-list li:nth-child(2) { /* second item */
     	position:relative;
-    	left:30px;
+    	left:20px;
 }
 ul#horizontal-list li:nth-child(3) { /* third item */
    	 position:relative;
-    	 left:30px;
+    	 left:20px;
 }
