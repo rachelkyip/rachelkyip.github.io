@@ -118,11 +118,6 @@ ul#horizontal-list {
 		display: inline;
                 color: #000000
 	}
-
-ul#horizontal-list li:nth-child(1) { /* first item */
-    	position:relative;
-    	left:20px;
-}
 	
 ul#horizontal-list li:nth-child(2) { /* second item */
     	position:relative;
