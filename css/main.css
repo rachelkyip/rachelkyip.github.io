@@ -127,3 +127,7 @@ ul#horizontal-list li:nth-child(3) { /* third item */
    	 position:relative;
     	 left:20px;
 }
+ul#horizontal-list li:nth-child(4) { /* third item */
+   	 position:relative;
+    	 left:20px;
+}
