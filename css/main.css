@@ -134,4 +134,8 @@ ul#horizontal-list li:nth-child(4) { /* third item */
 
 .img-circle {
     border-radius: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
