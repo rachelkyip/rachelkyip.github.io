@@ -115,7 +115,6 @@ ul#horizontal-list {
         color: #000000
 	}
 	ul#horizontal-list li {
-		width:155px;
     		margin-right: 5px; //5px Space between li elements 
 		display: inline;
                 color: #000000
