@@ -12,7 +12,7 @@ body {
   color: #000000;
   overflow-x: hidden;
   padding-bottom: 50px;
-}  
+}
 
 
 /* INTRO SECTION
@@ -45,6 +45,10 @@ h1 {
   margin: 0 auto;
   padding-top: 50px;
   background: #000000;
+}
+
+.boldedtext {
+   font-weight: bold;
 }
 
 .timeline ul li::after {
@@ -118,7 +122,7 @@ ul#horizontal-list {
 		display: inline;
                 color: #000000
 	}
-	
+
 ul#horizontal-list li:nth-child(2) { /* second item */
     	position:relative;
     	left:5px;
@@ -134,8 +138,8 @@ ul#horizontal-list li:nth-child(4) { /* third item */
 
 .img-circle {
     border-radius: 50%;
-    height: auto; 
-    width: auto; 
-    max-width: 200px; 
+    height: auto;
+    width: auto;
+    max-width: 200px;
     max-height: 200px;
 }
