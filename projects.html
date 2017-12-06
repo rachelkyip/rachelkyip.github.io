@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Projects</title></title>
+    <!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+ </head>;
+ <body>
+     <nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="Resume.html">Resume</a></li>
+        		<li><a href="blog.html">Blog</a></li>
+        		<li><a href="projects.html">Projects</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Projects</h1>
+        		<h4>This page will temporarily have code from various tutorials or assignments for one of my university courses.</h4>
+			<h5>Tutorial 3</h5>
+			<script>
+			function randomize() {
+  				document.getElementById('p1').style.color = randomColors();
+			}
+
+			function randomColors() {
+  				return '#' + Math.floor(Math.random() * 16777215).toString(16);
+			}
+			</script>
+			
+			<div>
+ 			  <p id="p1">Random Color</p>
+			</div>
+
+			<button id="b1" onclick="randomize()">Randomized color</button>
+			<br>
+			
+			<button onclick="myFunction()">Change the name!</button>
+
+			<p id="website"></p>
+
+			<script>
+			function myFunction() {
+   				var person = prompt("Please enter your name", "What's your name");
+    				if (person != null) {
+        				document.getElementById("website").innerHTML =
+        				"Hello " + person + "! How are you today?";
+					document.title = person;
+    				}
+			}
+			</script>
+
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+
+        		<li><a href="https://github.com/rachelkyip">github.com/rachelkyip</a></li>
+			</ul>
+		</footer>
+
+ </body>
+
+ </html>
